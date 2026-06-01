@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Neon Frontiers Web</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <main class="app-shell">
+      <section id="countrySelect" class="country-select" aria-labelledby="selectTitle">
+        <div class="select-copy">
+          <p class="eyebrow">Global campaign</p>
+          <h1 id="selectTitle">Choose your country</h1>
+          <p>
+            Pick a real country, then expand by building industry, recruiting troops, and pushing visible armies across the world map.
+          </p>
+        </div>
+        <div id="countryGrid" class="country-grid" aria-label="Playable countries"></div>
+      </section>
+
+      <section id="game" class="game is-hidden" aria-label="Neon Frontiers game">
+        <header class="topbar">
+          <div>
+            <p class="eyebrow">Neon Frontiers</p>
+            <h2 id="playerName">Campaign</h2>
+          </div>
+          <div class="resource-strip" aria-label="Resources">
+            <span id="moneyChip"></span>
+            <span id="troopChip"></span>
+            <span id="factoryChip"></span>
+            <span id="researchChip"></span>
+            <span id="timeChip"></span>
+          </div>
+        </header>
+
+        <div class="play-layout">
+          <section class="map-panel" aria-label="World map">
+            <svg id="worldMap" viewBox="0 0 1200 620" role="img" aria-label="Simplified world map with real countries">
+              <defs>
+                <linearGradient id="oceanGradient" x1="0" x2="1" y1="0" y2="1">
+                  <stop offset="0%" stop-color="#4ec7dd"></stop>
+                  <stop offset="52%" stop-color="#2099b7"></stop>
+                  <stop offset="100%" stop-color="#127c9f"></stop>
+                </linearGradient>
+                <pattern id="mapGrid" width="60" height="60" patternUnits="userSpaceOnUse">
+                  <path d="M 60 0 L 0 0 0 60" fill="none" stroke="rgba(255,255,255,.18)" stroke-width="1"></path>
+                </pattern>
+                <filter id="landGlow" x="-25%" y="-25%" width="150%" height="150%">
+                  <feGaussianBlur stdDeviation="5" result="blur"></feGaussianBlur>
+                  <feMerge>
+                    <feMergeNode in="blur"></feMergeNode>
+                    <feMergeNode in="SourceGraphic"></feMergeNode>
+                  </feMerge>
+                </filter>
+              </defs>
+              <rect class="ocean" x="0" y="0" width="1200" height="620"></rect>
+              <rect class="map-grid-lines" x="0" y="0" width="1200" height="620"></rect>
+              <text class="map-title" x="600" y="38">MAP OF THE WORLD</text>
+              <g id="routesLayer" class="routes-layer"></g>
+              <g id="countryLayer" class="country-layer"></g>
+              <g id="frontlineLayer" class="frontline-layer"></g>
+              <g id="troopLayer" class="troop-layer"></g>
+            </svg>
+          </section>
+
+          <aside class="command-panel" aria-label="Command panel">
+            <section class="selected-card">
+              <p class="eyebrow">Selected land</p>
+              <h3 id="selectedName">Select a country</h3>
+              <p id="selectedMeta">Click your country to manage it, or click a border rival to attack.</p>
+            </section>
+
+            <section class="orders">
+              <button id="buildBtn" type="button">
+                <span class="icon">▦</span>
+                <span>Build industry</span>
+              </button>
+              <button id="housingBtn" type="button">
+                <span class="icon">⌂</span>
+                <span>Build housing</span>
+              </button>
+              <button id="recruitBtn" type="button">
+                <span class="icon">▲</span>
+                <span>Recruit troops</span>
+              </button>
+              <button id="researchBtn" type="button">
+                <span class="icon">✦</span>
+                <span>Upgrades</span>
+              </button>
+              <button id="declareBtn" type="button">
+                <span class="icon">⚑</span>
+                <span>Declare war</span>
+              </button>
+              <button id="attackBtn" type="button">
+                <span class="icon">➜</span>
+                <span>Attack selected</span>
+              </button>
+            </section>
+
+            <section class="status-card">
+              <p class="eyebrow">Situation</p>
+              <p id="statusText">Choose a country to begin.</p>
+            </section>
+
+            <section class="leaderboard">
+              <p class="eyebrow">World powers</p>
+              <ol id="leaderboard"></ol>
+            </section>
+
+            <section class="log">
+              <p class="eyebrow">Campaign log</p>
+              <div id="logEntries"></div>
+            </section>
+          </aside>
+        </div>
+      </section>
+
+      <section id="upgradeModal" class="upgrade-modal is-hidden" aria-label="Upgrade screen">
+        <div class="upgrade-screen">
+          <header class="upgrade-header">
+            <div>
+              <p class="eyebrow">National upgrades</p>
+              <h2>Command doctrine</h2>
+            </div>
+            <button id="closeUpgradeBtn" class="close-upgrades" type="button">Close</button>
+          </header>
+          <div id="upgradeGrid" class="upgrade-grid"></div>
+        </div>
+      </section>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1200 620">
+  <defs>
+    <linearGradient id="ocean" x1="0" x2="1" y1="0" y2="1"><stop offset="0%" stop-color="#4ec7dd"/><stop offset="52%" stop-color="#2099b7"/><stop offset="100%" stop-color="#127c9f"/></linearGradient>
+    <filter id="glow" x="-25%" y="-25%" width="150%" height="150%"><feGaussianBlur stdDeviation="4" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <clipPath id="clip-usa"><path d="M118 238 C154 214 220 213 268 225 C309 235 344 257 359 284 C342 306 310 326 267 333 C216 340 166 322 132 292 C118 276 111 256 118 238 Z"/></clipPath>
+    <clipPath id="clip-canada"><path d="M83 93 C139 63 225 47 310 62 C379 75 431 112 446 151 C421 184 360 202 295 195 C247 190 212 203 163 198 C108 191 81 161 83 93 Z"/></clipPath>
+    <clipPath id="clip-mexico"><path d="M197 334 C236 342 286 342 327 360 C362 379 380 411 364 440 C335 430 311 410 276 399 C241 388 214 374 197 334 Z"/></clipPath>
+    <clipPath id="clip-brazil"><path d="M383 386 C430 388 483 421 508 465 C510 516 471 559 421 581 C376 560 344 514 347 461 C352 428 362 403 383 386 Z"/></clipPath>
+    <clipPath id="clip-unitedKingdom"><path d="M510 188 C529 177 552 181 563 199 C553 219 565 237 570 255 C556 274 536 285 517 267 C506 251 493 233 500 212 C504 203 503 194 510 188 Z"/></clipPath>
+    <clipPath id="clip-france"><path d="M529 286 C555 267 594 265 625 288 C639 319 624 358 587 389 C552 381 523 357 518 325 C517 309 520 296 529 286 Z"/></clipPath>
+    <clipPath id="clip-spain"><path d="M477 386 C514 374 562 375 604 410 C590 443 562 463 512 456 C478 449 459 425 477 386 Z"/></clipPath>
+    <clipPath id="clip-germany"><path d="M633 244 C657 233 687 239 711 268 C721 300 707 336 665 361 C632 351 615 324 622 289 C624 271 625 254 633 244 Z"/></clipPath>
+    <clipPath id="clip-poland"><path d="M702 258 C725 249 765 251 796 287 C793 315 775 341 731 340 C704 329 696 294 702 258 Z"/></clipPath>
+    <clipPath id="clip-italy"><path d="M632 350 C665 351 693 374 700 408 C718 431 744 455 729 486 C704 486 690 448 667 424 C646 404 635 378 632 350 Z"/></clipPath>
+    <clipPath id="clip-russia"><path d="M735 112 C812 78 917 74 1037 88 C1117 99 1163 147 1158 225 C1126 260 1087 296 1001 287 C943 282 903 303 859 334 C806 323 751 287 729 222 C713 176 714 136 735 112 Z"/></clipPath>
+    <clipPath id="clip-turkey"><path d="M707 382 C758 371 811 377 854 404 C836 428 802 443 748 435 C721 430 704 413 707 382 Z"/></clipPath>
+    <clipPath id="clip-egypt"><path d="M659 459 C689 450 729 452 762 505 C755 536 730 560 684 545 C663 524 654 493 659 459 Z"/></clipPath>
+    <clipPath id="clip-iran"><path d="M810 411 C847 391 904 401 947 451 C931 488 897 512 847 502 C815 492 791 459 810 411 Z"/></clipPath>
+    <clipPath id="clip-india"><path d="M913 431 C946 427 986 449 1008 507 C1000 545 975 584 940 587 C910 553 888 501 895 462 C899 448 904 438 913 431 Z"/></clipPath>
+    <clipPath id="clip-china"><path d="M948 319 C1001 293 1062 297 1126 339 C1144 382 1135 433 1081 488 C1032 480 983 465 947 425 C923 399 922 351 948 319 Z"/></clipPath>
+    <clipPath id="clip-japan"><path d="M1138 313 C1162 323 1174 349 1172 386 C1191 414 1193 441 1172 466 C1153 449 1141 414 1132 370 C1129 345 1130 325 1138 313 Z"/></clipPath>
+    <clipPath id="clip-australia"><path d="M967 518 C1036 493 1107 506 1154 539 C1146 586 1102 608 1023 603 C981 599 950 570 967 518 Z"/></clipPath>
+    <clipPath id="clip-southAfrica"><path d="M610 535 C650 519 704 523 747 565 C727 600 692 616 638 611 C615 594 604 565 610 535 Z"/></clipPath>
+  </defs>
+  <rect width="1200" height="620" fill="url(#ocean)"/>
+  <path d="M0 60 H1200 M0 120 H1200 M0 180 H1200 M0 240 H1200 M0 300 H1200 M0 360 H1200 M0 420 H1200 M0 480 H1200 M0 540 H1200 M60 0 V620 M120 0 V620 M180 0 V620 M240 0 V620 M300 0 V620 M360 0 V620 M420 0 V620 M480 0 V620 M540 0 V620 M600 0 V620 M660 0 V620 M720 0 V620 M780 0 V620 M840 0 V620 M900 0 V620 M960 0 V620 M1020 0 V620 M1080 0 V620 M1140 0 V620" stroke="rgba(255,255,255,.15)" stroke-width="1"/>
+  <text x="600" y="38" fill="rgba(6,18,24,.78)" font-family="Avenir Next Condensed, Arial" font-size="27" font-weight="900" text-anchor="middle" paint-order="stroke" stroke="rgba(246,243,232,.42)" stroke-width="4" letter-spacing="5">MAP OF THE WORLD</text>
+  <g><line x1="245" y1="286" x2="250" y2="157" stroke="rgba(4,40,56,.22)" stroke-width="2" stroke-dasharray="7 9"/>
+  <line x1="245" y1="286" x2="262" y2="377" stroke="rgba(4,40,56,.22)" stroke-width="2" stroke-dasharray="7 9"/>
+  <line x1="245" y1="286" x2="532" y2="226" stroke="rgba(4,40,56,.22)" stroke-width="2" stroke-dasharray="7 9"/>
+  <line x1="245" y1="286" x2="584" y2="319" stroke="rgba(4,40,56,.22)" stroke-width="2" stroke-dasharray="7 9"/>
+  <line x1="245" y1="286" x2="1160" y2="380" stroke="rgba(4,40,56,.22)" stroke-width="2" stroke-dasharray="7 9"/>
+  <line x1="250" y1="157" x2="532" y2="226" stroke="rgba(4,40,56,.22)" stroke-width="2" stroke-dasharray="7 9"/>
+  <line x1="250" y1="157" x2="906" y2="205" stroke="rgba(4,40,56,.22)" stroke-width="2" stroke-dasharray="7 9"/>
+  <line x1="262" y1="377" x2="417" y2="472" stroke="rgba(4,40,56,.22)" stroke-width="2" stroke-dasharray="7 9"/>
+  <line x1="417" y1="472" x2="584" y2="319" stroke="rgba(4,40,56,.22)" stroke-width="2" stroke-dasharray="7 9"/>
+  <line x1="417" y1="472" x2="682" y2="581" stroke="rgba(4,40,56,.22)" stroke-width="2" stroke-dasharray="7 9"/>
+  <line x1="532" y1="226" x2="584" y2="319" stroke="rgba(4,40,56,.22)" stroke-width="2" stroke-dasharray="7 9"/>
+  <line x1="532" y1="226" x2="664" y2="295" stroke="rgba(4,40,56,.22)" stroke-width="2" stroke-dasharray="7 9"/>
+  <line x1="584" y1="319" x2="664" y2="295" stroke="rgba(4,40,56,.22)" stroke-width="2" stroke-dasharray="7 9"/>
+  <line x1="584" y1="319" x2="539" y2="413" stroke="rgba(4,40,56,.22)" stroke-width="2" stroke-dasharray="7 9"/>
+  <line x1="584" y1="319" x2="666" y2="397" stroke="rgba(4,40,56,.22)" stroke-width="2" stroke-dasharray="7 9"/>
+  <line x1="539" y1="413" x2="711" y2="495" stroke="rgba(4,40,56,.22)" stroke-width="2" stroke-dasharray="7 9"/>
+  <line x1="664" y1="295" x2="666" y2="397" stroke="rgba(4,40,56,.22)" stroke-width="2" stroke-dasharray="7 9"/>
+  <line x1="664" y1="295" x2="739" y2="302" stroke="rgba(4,40,56,.22)" stroke-width="2" stroke-dasharray="7 9"/>
+  <line x1="664" y1="295" x2="906" y2="205" stroke="rgba(4,40,56,.22)" stroke-width="2" stroke-dasharray="7 9"/>
+  <line x1="739" y1="302" x2="906" y2="205" stroke="rgba(4,40,56,.22)" stroke-width="2" stroke-dasharray="7 9"/>
+  <line x1="739" y1="302" x2="769" y2="422" stroke="rgba(4,40,56,.22)" stroke-width="2" stroke-dasharray="7 9"/>
+  <line x1="666" y1="397" x2="769" y2="422" stroke="rgba(4,40,56,.22)" stroke-width="2" stroke-dasharray="7 9"/>
+  <line x1="666" y1="397" x2="711" y2="495" stroke="rgba(4,40,56,.22)" stroke-width="2" stroke-dasharray="7 9"/>
+  <line x1="906" y1="205" x2="769" y2="422" stroke="rgba(4,40,56,.22)" stroke-width="2" stroke-dasharray="7 9"/>
+  <line x1="906" y1="205" x2="855" y2="459" stroke="rgba(4,40,56,.22)" stroke-width="2" stroke-dasharray="7 9"/>
+  <line x1="906" y1="205" x2="1028" y2="397" stroke="rgba(4,40,56,.22)" stroke-width="2" stroke-dasharray="7 9"/>
+  <line x1="906" y1="205" x2="1160" y2="380" stroke="rgba(4,40,56,.22)" stroke-width="2" stroke-dasharray="7 9"/>
+  <line x1="769" y1="422" x2="711" y2="495" stroke="rgba(4,40,56,.22)" stroke-width="2" stroke-dasharray="7 9"/>
+  <line x1="769" y1="422" x2="855" y2="459" stroke="rgba(4,40,56,.22)" stroke-width="2" stroke-dasharray="7 9"/>
+  <line x1="711" y1="495" x2="855" y2="459" stroke="rgba(4,40,56,.22)" stroke-width="2" stroke-dasharray="7 9"/>
+  <line x1="711" y1="495" x2="682" y2="581" stroke="rgba(4,40,56,.22)" stroke-width="2" stroke-dasharray="7 9"/>
+  <line x1="855" y1="459" x2="944" y2="499" stroke="rgba(4,40,56,.22)" stroke-width="2" stroke-dasharray="7 9"/>
+  <line x1="855" y1="459" x2="1028" y2="397" stroke="rgba(4,40,56,.22)" stroke-width="2" stroke-dasharray="7 9"/>
+  <line x1="944" y1="499" x2="1028" y2="397" stroke="rgba(4,40,56,.22)" stroke-width="2" stroke-dasharray="7 9"/>
+  <line x1="1028" y1="397" x2="1160" y2="380" stroke="rgba(4,40,56,.22)" stroke-width="2" stroke-dasharray="7 9"/>
+  <line x1="1028" y1="397" x2="1051" y2="548" stroke="rgba(4,40,56,.22)" stroke-width="2" stroke-dasharray="7 9"/>
+  <line x1="1160" y1="380" x2="1051" y2="548" stroke="rgba(4,40,56,.22)" stroke-width="2" stroke-dasharray="7 9"/>
+  <line x1="1051" y1="548" x2="682" y2="581" stroke="rgba(4,40,56,.22)" stroke-width="2" stroke-dasharray="7 9"/></g>
+  <g filter="url(#glow)">
+    <path d="M118 238 C154 214 220 213 268 225 C309 235 344 257 359 284 C342 306 310 326 267 333 C216 340 166 322 132 292 C118 276 111 256 118 238 Z" fill="#3f8cff" opacity=".82" stroke="rgba(8,34,42,.74)" stroke-width="2"/>
+    <g clip-path="url(#clip-usa)">
+      <circle cx="164" cy="270" r="46" fill="#3f8cff" opacity=".34" stroke="rgba(255,255,255,.28)" stroke-width="1"/>
+      <circle cx="214" cy="252" r="46" fill="#3f8cff" opacity=".34" stroke="rgba(255,255,255,.28)" stroke-width="1"/>
+      <circle cx="235" cy="313" r="46" fill="#3f8cff" opacity=".34" stroke="rgba(255,255,255,.28)" stroke-width="1"/>
+      <circle cx="265" cy="279" r="46" fill="#3f8cff" opacity=".34" stroke="rgba(255,255,255,.28)" stroke-width="1"/>
+      <circle cx="302" cy="255" r="46" fill="#3f8cff" opacity=".34" stroke="rgba(255,255,255,.28)" stroke-width="1"/>
+      <circle cx="332" cy="284" r="46" fill="#3f8cff" opacity=".34" stroke="rgba(255,255,255,.28)" stroke-width="1"/>
+      <circle cx="304" cy="315" r="46" fill="#3f8cff" opacity=".34" stroke="rgba(255,255,255,.28)" stroke-width="1"/>
+      <path d="M190 225 L205 331" fill="none" stroke="rgba(4,39,52,.62)" stroke-width="3" stroke-linecap="round"/>
+      <path d="M235 225 L243 337" fill="none" stroke="rgba(4,39,52,.62)" stroke-width="3" stroke-linecap="round"/>
+      <path d="M281 237 L274 329" fill="none" stroke="rgba(4,39,52,.62)" stroke-width="3" stroke-linecap="round"/>
+      <path d="M318 253 L300 333" fill="none" stroke="rgba(4,39,52,.62)" stroke-width="3" stroke-linecap="round"/>
+      <path d="M132 292 L352 284" fill="none" stroke="rgba(4,39,52,.62)" stroke-width="3" stroke-linecap="round"/>
+      <path d="M210 318 L292 236" fill="none" stroke="rgba(4,39,52,.62)" stroke-width="3" stroke-linecap="round"/>
+    </g>
+    <path d="M118 238 C154 214 220 213 268 225 C309 235 344 257 359 284 C342 306 310 326 267 333 C216 340 166 322 132 292 C118 276 111 256 118 238 Z" fill="none" stroke="rgba(8,34,42,.82)" stroke-width="2"/>
+    <text x="245" y="252" fill="#fff" font-family="Avenir Next Condensed, Arial" font-size="15" font-weight="900" text-anchor="middle" paint-order="stroke" stroke="rgba(0,0,0,.75)" stroke-width="4">USA</text>
+  </g>
+  <g filter="url(#glow)">
+    <path d="M83 93 C139 63 225 47 310 62 C379 75 431 112 446 151 C421 184 360 202 295 195 C247 190 212 203 163 198 C108 191 81 161 83 93 Z" fill="#56d8a0" opacity=".82" stroke="rgba(8,34,42,.74)" stroke-width="2"/>
+    <g clip-path="url(#clip-canada)">
+      <circle cx="134" cy="122" r="46" fill="#56d8a0" opacity=".34" stroke="rgba(255,255,255,.28)" stroke-width="1"/>
+      <circle cx="197" cy="131" r="46" fill="#56d8a0" opacity=".34" stroke="rgba(255,255,255,.28)" stroke-width="1"/>
+      <circle cx="168" cy="176" r="46" fill="#56d8a0" opacity=".34" stroke="rgba(255,255,255,.28)" stroke-width="1"/>
+      <circle cx="275" cy="178" r="46" fill="#56d8a0" opacity=".34" stroke="rgba(255,255,255,.28)" stroke-width="1"/>
+      <circle cx="338" cy="166" r="46" fill="#56d8a0" opacity=".34" stroke="rgba(255,255,255,.28)" stroke-width="1"/>
+      <circle cx="397" cy="155" r="46" fill="#56d8a0" opacity=".34" stroke="rgba(255,255,255,.28)" stroke-width="1"/>
+      <circle cx="270" cy="113" r="46" fill="#56d8a0" opacity=".34" stroke="rgba(255,255,255,.28)" stroke-width="1"/>
+      <circle cx="345" cy="101" r="46" fill="#56d8a0" opacity=".34" stroke="rgba(255,255,255,.28)" stroke-width="1"/>
+      <path d="M148 72 L151 197" fill="none" stroke="rgba(4,39,52,.62)" stroke-width="3" stroke-linecap="round"/>
+      <path d="M214 55 L215 200" fill="none" stroke="rgba(4,39,52,.62)" stroke-width="3" stroke-linecap="round"/>
+      <path d="M282 59 L277 199" fill="none" stroke="rgba(4,39,52,.62)" stroke-width="3" stroke-linecap="round"/>
+      <path d="M345 78 L330 191" fill="none" stroke="rgba(4,39,52,.62)" stroke-width="3" stroke-linecap="round"/>
+      <path d="M101 155 L431 151" fill="none" stroke="rgba(4,39,52,.62)" stroke-width="3" stroke-linecap="round"/>
+      <path d="M184 93 L379 187" fill="none" stroke="rgba(4,39,52,.62)" stroke-width="3" stroke-linecap="round"/>
+      <path d="M267 62 L244 196" fill="none" stroke="rgba(4,39,52,.62)" stroke-width="3" stroke-linecap="round"/>
+    </g>
+    <path d="M83 93 C139 63 225 47 310 62 C379 75 431 112 446 151 C421 184 360 202 295 195 C247 190 212 203 163 198 C108 191 81 161 83 93 Z" fill="none" stroke="rgba(8,34,42,.82)" stroke-width="2"/>
+    <text x="250" y="123" fill="#fff" font-family="Avenir Next Condensed, Arial" font-size="15" font-weight="900" text-anchor="middle" paint-order="stroke" stroke="rgba(0,0,0,.75)" stroke-width="4">Canada</text>
+  </g>
+  <g filter="url(#glow)">
+    <path d="M197 334 C236 342 286 342 327 360 C362 379 380 411 364 440 C335 430 311 410 276 399 C241 388 214 374 197 334 Z" fill="#debf53" opacity=".82" stroke="rgba(8,34,42,.74)" stroke-width="2"/>
+    <g clip-path="url(#clip-mexico)">
+      <circle cx="228" cy="355" r="34" fill="#debf53" opacity=".34" stroke="rgba(255,255,255,.28)" stroke-width="1"/>
+      <circle cx="281" cy="381" r="34" fill="#debf53" opacity=".34" stroke="rgba(255,255,255,.28)" stroke-width="1"/>
+      <circle cx="343" cy="417" r="34" fill="#debf53" opacity=".34" stroke="rgba(255,255,255,.28)" stroke-width="1"/>
+      <path d="M255 339 L247 394" fill="none" stroke="rgba(4,39,52,.62)" stroke-width="3" stroke-linecap="round"/>
+      <path d="M305 355 L286 417" fill="none" stroke="rgba(4,39,52,.62)" stroke-width="3" stroke-linecap="round"/>
+    </g>
+    <path d="M197 334 C236 342 286 342 327 360 C362 379 380 411 364 440 C335 430 311 410 276 399 C241 388 214 374 197 334 Z" fill="none" stroke="rgba(8,34,42,.82)" stroke-width="2"/>
+    <text x="262" y="343" fill="#fff" font-family="Avenir Next Condensed, Arial" font-size="15" font-weight="900" text-anchor="middle" paint-order="stroke" stroke="rgba(0,0,0,.75)" stroke-width="4">Mexico</text>
+  </g>
+  <g filter="url(#glow)">
+    <path d="M383 386 C430 388 483 421 508 465 C510 516 471 559 421 581 C376 560 344 514 347 461 C352 428 362 403 383 386 Z" fill="#6ee66f" opacity=".82" stroke="rgba(8,34,42,.74)" stroke-width="2"/>
+    <g clip-path="url(#clip-brazil)">
+      <circle cx="397" cy="427" r="46" fill="#6ee66f" opacity=".34" stroke="rgba(255,255,255,.28)" stroke-width="1"/>
+      <circle cx="466" cy="456" r="46" fill="#6ee66f" opacity=".34" stroke="rgba(255,255,255,.28)" stroke-width="1"/>
+      <circle cx="422" cy="478" r="46" fill="#6ee66f" opacity=".34" stroke="rgba(255,255,255,.28)" stroke-width="1"/>
+      <circle cx="435" cy="532" r="46" fill="#6ee66f" opacity=".34" stroke="rgba(255,255,255,.28)" stroke-width="1"/>
+      <circle cx="392" cy="542" r="46" fill="#6ee66f" opacity=".34" stroke="rgba(255,255,255,.28)" stroke-width="1"/>
+      <path d="M377 397 L456 571" fill="none" stroke="rgba(4,39,52,.62)" stroke-width="3" stroke-linecap="round"/>
+      <path d="M346 461 L507 466" fill="none" stroke="rgba(4,39,52,.62)" stroke-width="3" stroke-linecap="round"/>
+      <path d="M363 522 L490 514" fill="none" stroke="rgba(4,39,52,.62)" stroke-width="3" stroke-linecap="round"/>
+      <path d="M429 390 L421 579" fill="none" stroke="rgba(4,39,52,.62)" stroke-width="3" stroke-linecap="round"/>
+    </g>
+    <path d="M383 386 C430 388 483 421 508 465 C510 516 471 559 421 581 C376 560 344 514 347 461 C352 428 362 403 383 386 Z" fill="none" stroke="rgba(8,34,42,.82)" stroke-width="2"/>
+    <text x="417" y="438" fill="#fff" font-family="Avenir Next Condensed, Arial" font-size="15" font-weight="900" text-anchor="middle" paint-order="stroke" stroke="rgba(0,0,0,.75)" stroke-width="4">Brazil</text>
+  </g>
+  <g filter="url(#glow)">
+    <path d="M510 188 C529 177 552 181 563 199 C553 219 565 237 570 255 C556 274 536 285 517 267 C506 251 493 233 500 212 C504 203 503 194 510 188 Z" fill="#d76bff" opacity=".82" stroke="rgba(8,34,42,.74)" stroke-width="2"/>
+    <g clip-path="url(#clip-unitedKingdom)">
+      <circle cx="535" cy="202" r="28" fill="#d76bff" opacity=".34" stroke="rgba(255,255,255,.28)" stroke-width="1"/>
+      <circle cx="530" cy="236" r="28" fill="#d76bff" opacity=".34" stroke="rgba(255,255,255,.28)" stroke-width="1"/>
+      <circle cx="548" cy="263" r="28" fill="#d76bff" opacity=".34" stroke="rgba(255,255,255,.28)" stroke-width="1"/>
+      <path d="M504 219 L565 220" fill="none" stroke="rgba(4,39,52,.62)" stroke-width="3" stroke-linecap="round"/>
+      <path d="M507 247 L570 246" fill="none" stroke="rgba(4,39,52,.62)" stroke-width="3" stroke-linecap="round"/>
+    </g>
+    <path d="M510 188 C529 177 552 181 563 199 C553 219 565 237 570 255 C556 274 536 285 517 267 C506 251 493 233 500 212 C504 203 503 194 510 188 Z" fill="none" stroke="rgba(8,34,42,.82)" stroke-width="2"/>
+    <text x="532" y="192" fill="#fff" font-family="Avenir Next Condensed, Arial" font-size="15" font-weight="900" text-anchor="middle" paint-order="stroke" stroke="rgba(0,0,0,.75)" stroke-width="4">UK</text>
+  </g>
+  <g filter="url(#glow)">
+    <path d="M529 286 C555 267 594 265 625 288 C639 319 624 358 587 389 C552 381 523 357 518 325 C517 309 520 296 529 286 Z" fill="#56c7ff" opacity=".82" stroke="rgba(8,34,42,.74)" stroke-width="2"/>
+    <g clip-path="url(#clip-france)">
+      <circle cx="550" cy="295" r="34" fill="#56c7ff" opacity=".34" stroke="rgba(255,255,255,.28)" stroke-width="1"/>
+      <circle cx="585" cy="314" r="34" fill="#56c7ff" opacity=".34" stroke="rgba(255,255,255,.28)" stroke-width="1"/>
+      <circle cx="552" cy="353" r="34" fill="#56c7ff" opacity=".34" stroke="rgba(255,255,255,.28)" stroke-width="1"/>
+      <circle cx="604" cy="350" r="34" fill="#56c7ff" opacity=".34" stroke="rgba(255,255,255,.28)" stroke-width="1"/>
+      <circle cx="588" cy="376" r="34" fill="#56c7ff" opacity=".34" stroke="rgba(255,255,255,.28)" stroke-width="1"/>
+      <path d="M536 287 L607 383" fill="none" stroke="rgba(4,39,52,.62)" stroke-width="3" stroke-linecap="round"/>
+      <path d="M520 327 L633 319" fill="none" stroke="rgba(4,39,52,.62)" stroke-width="3" stroke-linecap="round"/>
+      <path d="M575 267 L573 390" fill="none" stroke="rgba(4,39,52,.62)" stroke-width="3" stroke-linecap="round"/>
+      <path d="M527 357 L625 292" fill="none" stroke="rgba(4,39,52,.62)" stroke-width="3" stroke-linecap="round"/>
+    </g>
+    <path d="M529 286 C555 267 594 265 625 288 C639 319 624 358 587 389 C552 381 523 357 518 325 C517 309 520 296 529 286 Z" fill="none" stroke="rgba(8,34,42,.82)" stroke-width="2"/>
+    <text x="584" y="285" fill="#fff" font-family="Avenir Next Condensed, Arial" font-size="15" font-weight="900" text-anchor="middle" paint-order="stroke" stroke="rgba(0,0,0,.75)" stroke-width="4">France</text>
+  </g>
+  <g filter="url(#glow)">
+    <path d="M477 386 C514 374 562 375 604 410 C590 443 562 463 512 456 C478 449 459 425 477 386 Z" fill="#ffb44f" opacity=".82" stroke="rgba(8,34,42,.74)" stroke-width="2"/>
+    <g clip-path="url(#clip-spain)">
+      <circle cx="523" cy="414" r="34" fill="#ffb44f" opacity=".34" stroke="rgba(255,255,255,.28)" stroke-width="1"/>
+      <circle cx="573" cy="409" r="34" fill="#ffb44f" opacity=".34" stroke="rgba(255,255,255,.28)" stroke-width="1"/>
+      <circle cx="524" cy="446" r="34" fill="#ffb44f" opacity=".34" stroke="rgba(255,255,255,.28)" stroke-width="1"/>
+      <path d="M536 377 L527 458" fill="none" stroke="rgba(4,39,52,.62)" stroke-width="3" stroke-linecap="round"/>
+      <path d="M477 421 L600 416" fill="none" stroke="rgba(4,39,52,.62)" stroke-width="3" stroke-linecap="round"/>
+    </g>
+    <path d="M477 386 C514 374 562 375 604 410 C590 443 562 463 512 456 C478 449 459 425 477 386 Z" fill="none" stroke="rgba(8,34,42,.82)" stroke-width="2"/>
+    <text x="539" y="379" fill="#fff" font-family="Avenir Next Condensed, Arial" font-size="15" font-weight="900" text-anchor="middle" paint-order="stroke" stroke="rgba(0,0,0,.75)" stroke-width="4">Spain</text>
+  </g>
+  <g filter="url(#glow)">
+    <path d="M633 244 C657 233 687 239 711 268 C721 300 707 336 665 361 C632 351 615 324 622 289 C624 271 625 254 633 244 Z" fill="#fff06a" opacity=".82" stroke="rgba(8,34,42,.74)" stroke-width="2"/>
+    <g clip-path="url(#clip-germany)">
+      <circle cx="644" cy="286" r="34" fill="#fff06a" opacity=".34" stroke="rgba(255,255,255,.28)" stroke-width="1"/>
+      <circle cx="658" cy="339" r="34" fill="#fff06a" opacity=".34" stroke="rgba(255,255,255,.28)" stroke-width="1"/>
+      <circle cx="690" cy="314" r="34" fill="#fff06a" opacity=".34" stroke="rgba(255,255,255,.28)" stroke-width="1"/>
+      <circle cx="676" cy="264" r="34" fill="#fff06a" opacity=".34" stroke="rgba(255,255,255,.28)" stroke-width="1"/>
+      <path d="M661 238 L660 360" fill="none" stroke="rgba(4,39,52,.62)" stroke-width="3" stroke-linecap="round"/>
+      <path d="M623 305 L715 303" fill="none" stroke="rgba(4,39,52,.62)" stroke-width="3" stroke-linecap="round"/>
+      <path d="M635 247 L702 341" fill="none" stroke="rgba(4,39,52,.62)" stroke-width="3" stroke-linecap="round"/>
+    </g>
+    <path d="M633 244 C657 233 687 239 711 268 C721 300 707 336 665 361 C632 351 615 324 622 289 C624 271 625 254 633 244 Z" fill="none" stroke="rgba(8,34,42,.82)" stroke-width="2"/>
+    <text x="664" y="261" fill="#fff" font-family="Avenir Next Condensed, Arial" font-size="15" font-weight="900" text-anchor="middle" paint-order="stroke" stroke="rgba(0,0,0,.75)" stroke-width="4">Germany</text>
+  </g>
+  <g filter="url(#glow)">
+    <path d="M702 258 C725 249 765 251 796 287 C793 315 775 341 731 340 C704 329 696 294 702 258 Z" fill="#ff7f8f" opacity=".82" stroke="rgba(8,34,42,.74)" stroke-width="2"/>
+    <g clip-path="url(#clip-poland)">
+      <circle cx="723" cy="287" r="28" fill="#ff7f8f" opacity=".34" stroke="rgba(255,255,255,.28)" stroke-width="1"/>
+      <circle cx="757" cy="292" r="28" fill="#ff7f8f" opacity=".34" stroke="rgba(255,255,255,.28)" stroke-width="1"/>
+      <circle cx="743" cy="329" r="28" fill="#ff7f8f" opacity=".34" stroke="rgba(255,255,255,.28)" stroke-width="1"/>
+      <path d="M743 252 L742 340" fill="none" stroke="rgba(4,39,52,.62)" stroke-width="3" stroke-linecap="round"/>
+      <path d="M704 307 L789 305" fill="none" stroke="rgba(4,39,52,.62)" stroke-width="3" stroke-linecap="round"/>
+    </g>
+    <path d="M702 258 C725 249 765 251 796 287 C793 315 775 341 731 340 C704 329 696 294 702 258 Z" fill="none" stroke="rgba(8,34,42,.82)" stroke-width="2"/>
+    <text x="739" y="268" fill="#fff" font-family="Avenir Next Condensed, Arial" font-size="15" font-weight="900" text-anchor="middle" paint-order="stroke" stroke="rgba(0,0,0,.75)" stroke-width="4">Poland</text>
+  </g>
+  <g filter="url(#glow)">
+    <path d="M632 350 C665 351 693 374 700 408 C718 431 744 455 729 486 C704 486 690 448 667 424 C646 404 635 378 632 350 Z" fill="#7df2c6" opacity=".82" stroke="rgba(8,34,42,.74)" stroke-width="2"/>
+    <g clip-path="url(#clip-italy)">
+      <circle cx="662" cy="370" r="28" fill="#7df2c6" opacity=".34" stroke="rgba(255,255,255,.28)" stroke-width="1"/>
+      <circle cx="681" cy="417" r="28" fill="#7df2c6" opacity=".34" stroke="rgba(255,255,255,.28)" stroke-width="1"/>
+      <circle cx="716" cy="461" r="28" fill="#7df2c6" opacity=".34" stroke="rgba(255,255,255,.28)" stroke-width="1"/>
+      <path d="M639 386 L704 392" fill="none" stroke="rgba(4,39,52,.62)" stroke-width="3" stroke-linecap="round"/>
+      <path d="M662 423 L731 448" fill="none" stroke="rgba(4,39,52,.62)" stroke-width="3" stroke-linecap="round"/>
+    </g>
+    <path d="M632 350 C665 351 693 374 700 408 C718 431 744 455 729 486 C704 486 690 448 667 424 C646 404 635 378 632 350 Z" fill="none" stroke="rgba(8,34,42,.82)" stroke-width="2"/>
+    <text x="666" y="363" fill="#fff" font-family="Avenir Next Condensed, Arial" font-size="15" font-weight="900" text-anchor="middle" paint-order="stroke" stroke="rgba(0,0,0,.75)" stroke-width="4">Italy</text>
+  </g>
+  <g filter="url(#glow)">
+    <path d="M735 112 C812 78 917 74 1037 88 C1117 99 1163 147 1158 225 C1126 260 1087 296 1001 287 C943 282 903 303 859 334 C806 323 751 287 729 222 C713 176 714 136 735 112 Z" fill="#ff645e" opacity=".82" stroke="rgba(8,34,42,.74)" stroke-width="2"/>
+    <g clip-path="url(#clip-russia)">
+      <circle cx="782" cy="142" r="46" fill="#ff645e" opacity=".34" stroke="rgba(255,255,255,.28)" stroke-width="1"/>
+      <circle cx="850" cy="202" r="46" fill="#ff645e" opacity=".34" stroke="rgba(255,255,255,.28)" stroke-width="1"/>
+      <circle cx="845" cy="271" r="46" fill="#ff645e" opacity=".34" stroke="rgba(255,255,255,.28)" stroke-width="1"/>
+      <circle cx="925" cy="239" r="46" fill="#ff645e" opacity=".34" stroke="rgba(255,255,255,.28)" stroke-width="1"/>
+      <circle cx="986" cy="180" r="46" fill="#ff645e" opacity=".34" stroke="rgba(255,255,255,.28)" stroke-width="1"/>
+      <circle cx="1058" cy="174" r="46" fill="#ff645e" opacity=".34" stroke="rgba(255,255,255,.28)" stroke-width="1"/>
+      <circle cx="1113" cy="226" r="46" fill="#ff645e" opacity=".34" stroke="rgba(255,255,255,.28)" stroke-width="1"/>
+      <circle cx="945" cy="293" r="46" fill="#ff645e" opacity=".34" stroke="rgba(255,255,255,.28)" stroke-width="1"/>
+      <circle cx="770" cy="218" r="46" fill="#ff645e" opacity=".34" stroke="rgba(255,255,255,.28)" stroke-width="1"/>
+      <circle cx="944" cy="112" r="46" fill="#ff645e" opacity=".34" stroke="rgba(255,255,255,.28)" stroke-width="1"/>
+      <path d="M792 86 L778 315" fill="none" stroke="rgba(4,39,52,.62)" stroke-width="3" stroke-linecap="round"/>
+      <path d="M857 80 L846 333" fill="none" stroke="rgba(4,39,52,.62)" stroke-width="3" stroke-linecap="round"/>
+      <path d="M930 78 L923 303" fill="none" stroke="rgba(4,39,52,.62)" stroke-width="3" stroke-linecap="round"/>
+      <path d="M1008 86 L1001 291" fill="none" stroke="rgba(4,39,52,.62)" stroke-width="3" stroke-linecap="round"/>
+      <path d="M1084 111 L1065 285" fill="none" stroke="rgba(4,39,52,.62)" stroke-width="3" stroke-linecap="round"/>
+      <path d="M724 201 L1156 215" fill="none" stroke="rgba(4,39,52,.62)" stroke-width="3" stroke-linecap="round"/>
+      <path d="M766 269 L1090 125" fill="none" stroke="rgba(4,39,52,.62)" stroke-width="3" stroke-linecap="round"/>
+      <path d="M808 113 L1037 291" fill="none" stroke="rgba(4,39,52,.62)" stroke-width="3" stroke-linecap="round"/>
+      <path d="M921 80 L858 333" fill="none" stroke="rgba(4,39,52,.62)" stroke-width="3" stroke-linecap="round"/>
+    </g>
+    <path d="M735 112 C812 78 917 74 1037 88 C1117 99 1163 147 1158 225 C1126 260 1087 296 1001 287 C943 282 903 303 859 334 C806 323 751 287 729 222 C713 176 714 136 735 112 Z" fill="none" stroke="rgba(8,34,42,.82)" stroke-width="2"/>
+    <text x="906" y="171" fill="#fff" font-family="Avenir Next Condensed, Arial" font-size="15" font-weight="900" text-anchor="middle" paint-order="stroke" stroke="rgba(0,0,0,.75)" stroke-width="4">Russia</text>
+  </g>
+  <g filter="url(#glow)">
+    <path d="M707 382 C758 371 811 377 854 404 C836 428 802 443 748 435 C721 430 704 413 707 382 Z" fill="#ff8f4a" opacity=".82" stroke="rgba(8,34,42,.74)" stroke-width="2"/>
+    <g clip-path="url(#clip-turkey)">
+      <circle cx="733" cy="397" r="34" fill="#ff8f4a" opacity=".34" stroke="rgba(255,255,255,.28)" stroke-width="1"/>
+      <circle cx="774" cy="411" r="34" fill="#ff8f4a" opacity=".34" stroke="rgba(255,255,255,.28)" stroke-width="1"/>
+      <circle cx="822" cy="421" r="34" fill="#ff8f4a" opacity=".34" stroke="rgba(255,255,255,.28)" stroke-width="1"/>
+      <path d="M752 377 L742 436" fill="none" stroke="rgba(4,39,52,.62)" stroke-width="3" stroke-linecap="round"/>
+      <path d="M797 381 L789 440" fill="none" stroke="rgba(4,39,52,.62)" stroke-width="3" stroke-linecap="round"/>
+    </g>
+    <path d="M707 382 C758 371 811 377 854 404 C836 428 802 443 748 435 C721 430 704 413 707 382 Z" fill="none" stroke="rgba(8,34,42,.82)" stroke-width="2"/>
+    <text x="769" y="388" fill="#fff" font-family="Avenir Next Condensed, Arial" font-size="15" font-weight="900" text-anchor="middle" paint-order="stroke" stroke="rgba(0,0,0,.75)" stroke-width="4">Turkey</text>
+  </g>
+  <g filter="url(#glow)">
+    <path d="M659 459 C689 450 729 452 762 505 C755 536 730 560 684 545 C663 524 654 493 659 459 Z" fill="#d9b06e" opacity=".82" stroke="rgba(8,34,42,.74)" stroke-width="2"/>
+    <g clip-path="url(#clip-egypt)">
+      <circle cx="699" cy="479" r="34" fill="#d9b06e" opacity=".34" stroke="rgba(255,255,255,.28)" stroke-width="1"/>
+      <circle cx="701" cy="526" r="34" fill="#d9b06e" opacity=".34" stroke="rgba(255,255,255,.28)" stroke-width="1"/>
+      <circle cx="741" cy="506" r="34" fill="#d9b06e" opacity=".34" stroke="rgba(255,255,255,.28)" stroke-width="1"/>
+      <path d="M715 452 L701 548" fill="none" stroke="rgba(4,39,52,.62)" stroke-width="3" stroke-linecap="round"/>
+      <path d="M660 503 L766 505" fill="none" stroke="rgba(4,39,52,.62)" stroke-width="3" stroke-linecap="round"/>
+    </g>
+    <path d="M659 459 C689 450 729 452 762 505 C755 536 730 560 684 545 C663 524 654 493 659 459 Z" fill="none" stroke="rgba(8,34,42,.82)" stroke-width="2"/>
+    <text x="711" y="461" fill="#fff" font-family="Avenir Next Condensed, Arial" font-size="15" font-weight="900" text-anchor="middle" paint-order="stroke" stroke="rgba(0,0,0,.75)" stroke-width="4">Egypt</text>
+  </g>
+  <g filter="url(#glow)">
+    <path d="M810 411 C847 391 904 401 947 451 C931 488 897 512 847 502 C815 492 791 459 810 411 Z" fill="#b7e163" opacity=".82" stroke="rgba(8,34,42,.74)" stroke-width="2"/>
+    <g clip-path="url(#clip-iran)">
+      <circle cx="849" cy="431" r="34" fill="#b7e163" opacity=".34" stroke="rgba(255,255,255,.28)" stroke-width="1"/>
+      <circle cx="858" cy="466" r="34" fill="#b7e163" opacity=".34" stroke="rgba(255,255,255,.28)" stroke-width="1"/>
+      <circle cx="838" cy="493" r="34" fill="#b7e163" opacity=".34" stroke="rgba(255,255,255,.28)" stroke-width="1"/>
+      <circle cx="908" cy="457" r="34" fill="#b7e163" opacity=".34" stroke="rgba(255,255,255,.28)" stroke-width="1"/>
+      <path d="M855 399 L852 506" fill="none" stroke="rgba(4,39,52,.62)" stroke-width="3" stroke-linecap="round"/>
+      <path d="M811 460 L943 455" fill="none" stroke="rgba(4,39,52,.62)" stroke-width="3" stroke-linecap="round"/>
+      <path d="M813 413 L920 502" fill="none" stroke="rgba(4,39,52,.62)" stroke-width="3" stroke-linecap="round"/>
+    </g>
+    <path d="M810 411 C847 391 904 401 947 451 C931 488 897 512 847 502 C815 492 791 459 810 411 Z" fill="none" stroke="rgba(8,34,42,.82)" stroke-width="2"/>
+    <text x="855" y="425" fill="#fff" font-family="Avenir Next Condensed, Arial" font-size="15" font-weight="900" text-anchor="middle" paint-order="stroke" stroke="rgba(0,0,0,.75)" stroke-width="4">Iran</text>
+  </g>
+  <g filter="url(#glow)">
+    <path d="M913 431 C946 427 986 449 1008 507 C1000 545 975 584 940 587 C910 553 888 501 895 462 C899 448 904 438 913 431 Z" fill="#ff9dcb" opacity=".82" stroke="rgba(8,34,42,.74)" stroke-width="2"/>
+    <g clip-path="url(#clip-india)">
+      <circle cx="934" cy="454" r="34" fill="#ff9dcb" opacity=".34" stroke="rgba(255,255,255,.28)" stroke-width="1"/>
+      <circle cx="979" cy="487" r="34" fill="#ff9dcb" opacity=".34" stroke="rgba(255,255,255,.28)" stroke-width="1"/>
+      <circle cx="949" cy="526" r="34" fill="#ff9dcb" opacity=".34" stroke="rgba(255,255,255,.28)" stroke-width="1"/>
+      <circle cx="912" cy="500" r="34" fill="#ff9dcb" opacity=".34" stroke="rgba(255,255,255,.28)" stroke-width="1"/>
+      <circle cx="956" cy="570" r="34" fill="#ff9dcb" opacity=".34" stroke="rgba(255,255,255,.28)" stroke-width="1"/>
+      <path d="M942 431 L943 587" fill="none" stroke="rgba(4,39,52,.62)" stroke-width="3" stroke-linecap="round"/>
+      <path d="M895 497 L1007 504" fill="none" stroke="rgba(4,39,52,.62)" stroke-width="3" stroke-linecap="round"/>
+      <path d="M914 431 L984 565" fill="none" stroke="rgba(4,39,52,.62)" stroke-width="3" stroke-linecap="round"/>
+      <path d="M894 462 L1003 527" fill="none" stroke="rgba(4,39,52,.62)" stroke-width="3" stroke-linecap="round"/>
+    </g>
+    <path d="M913 431 C946 427 986 449 1008 507 C1000 545 975 584 940 587 C910 553 888 501 895 462 C899 448 904 438 913 431 Z" fill="none" stroke="rgba(8,34,42,.82)" stroke-width="2"/>
+    <text x="944" y="465" fill="#fff" font-family="Avenir Next Condensed, Arial" font-size="15" font-weight="900" text-anchor="middle" paint-order="stroke" stroke="rgba(0,0,0,.75)" stroke-width="4">India</text>
+  </g>
+  <g filter="url(#glow)">
+    <path d="M948 319 C1001 293 1062 297 1126 339 C1144 382 1135 433 1081 488 C1032 480 983 465 947 425 C923 399 922 351 948 319 Z" fill="#ffcc41" opacity=".82" stroke="rgba(8,34,42,.74)" stroke-width="2"/>
+    <g clip-path="url(#clip-china)">
+      <circle cx="1032" cy="340" r="46" fill="#ffcc41" opacity=".34" stroke="rgba(255,255,255,.28)" stroke-width="1"/>
+      <circle cx="1085" cy="414" r="46" fill="#ffcc41" opacity=".34" stroke="rgba(255,255,255,.28)" stroke-width="1"/>
+      <circle cx="1006" cy="419" r="46" fill="#ffcc41" opacity=".34" stroke="rgba(255,255,255,.28)" stroke-width="1"/>
+      <circle cx="1051" cy="463" r="46" fill="#ffcc41" opacity=".34" stroke="rgba(255,255,255,.28)" stroke-width="1"/>
+      <circle cx="958" cy="373" r="46" fill="#ffcc41" opacity=".34" stroke="rgba(255,255,255,.28)" stroke-width="1"/>
+      <circle cx="1093" cy="350" r="46" fill="#ffcc41" opacity=".34" stroke="rgba(255,255,255,.28)" stroke-width="1"/>
+      <path d="M1015 300 L1003 474" fill="none" stroke="rgba(4,39,52,.62)" stroke-width="3" stroke-linecap="round"/>
+      <path d="M1070 308 L1056 482" fill="none" stroke="rgba(4,39,52,.62)" stroke-width="3" stroke-linecap="round"/>
+      <path d="M930 396 L1136 397" fill="none" stroke="rgba(4,39,52,.62)" stroke-width="3" stroke-linecap="round"/>
+      <path d="M956 326 L1083 487" fill="none" stroke="rgba(4,39,52,.62)" stroke-width="3" stroke-linecap="round"/>
+      <path d="M1109 339 L954 425" fill="none" stroke="rgba(4,39,52,.62)" stroke-width="3" stroke-linecap="round"/>
+    </g>
+    <path d="M948 319 C1001 293 1062 297 1126 339 C1144 382 1135 433 1081 488 C1032 480 983 465 947 425 C923 399 922 351 948 319 Z" fill="none" stroke="rgba(8,34,42,.82)" stroke-width="2"/>
+    <text x="1028" y="363" fill="#fff" font-family="Avenir Next Condensed, Arial" font-size="15" font-weight="900" text-anchor="middle" paint-order="stroke" stroke="rgba(0,0,0,.75)" stroke-width="4">China</text>
+  </g>
+  <g filter="url(#glow)">
+    <path d="M1138 313 C1162 323 1174 349 1172 386 C1191 414 1193 441 1172 466 C1153 449 1141 414 1132 370 C1129 345 1130 325 1138 313 Z" fill="#f3f0f0" opacity=".82" stroke="rgba(8,34,42,.74)" stroke-width="2"/>
+    <g clip-path="url(#clip-japan)">
+      <circle cx="1154" cy="337" r="28" fill="#f3f0f0" opacity=".34" stroke="rgba(255,255,255,.28)" stroke-width="1"/>
+      <circle cx="1160" cy="390" r="28" fill="#f3f0f0" opacity=".34" stroke="rgba(255,255,255,.28)" stroke-width="1"/>
+      <circle cx="1172" cy="445" r="28" fill="#f3f0f0" opacity=".34" stroke="rgba(255,255,255,.28)" stroke-width="1"/>
+      <path d="M1134 363 L1173 361" fill="none" stroke="rgba(4,39,52,.62)" stroke-width="3" stroke-linecap="round"/>
+      <path d="M1139 421 L1187 420" fill="none" stroke="rgba(4,39,52,.62)" stroke-width="3" stroke-linecap="round"/>
+    </g>
+    <path d="M1138 313 C1162 323 1174 349 1172 386 C1191 414 1193 441 1172 466 C1153 449 1141 414 1132 370 C1129 345 1130 325 1138 313 Z" fill="none" stroke="rgba(8,34,42,.82)" stroke-width="2"/>
+    <text x="1160" y="346" fill="#fff" font-family="Avenir Next Condensed, Arial" font-size="15" font-weight="900" text-anchor="middle" paint-order="stroke" stroke="rgba(0,0,0,.75)" stroke-width="4">Japan</text>
+  </g>
+  <g filter="url(#glow)">
+    <path d="M967 518 C1036 493 1107 506 1154 539 C1146 586 1102 608 1023 603 C981 599 950 570 967 518 Z" fill="#c98bff" opacity=".82" stroke="rgba(8,34,42,.74)" stroke-width="2"/>
+    <g clip-path="url(#clip-australia)">
+      <circle cx="1005" cy="550" r="46" fill="#c98bff" opacity=".34" stroke="rgba(255,255,255,.28)" stroke-width="1"/>
+      <circle cx="1094" cy="540" r="46" fill="#c98bff" opacity=".34" stroke="rgba(255,255,255,.28)" stroke-width="1"/>
+      <circle cx="1081" cy="580" r="46" fill="#c98bff" opacity=".34" stroke="rgba(255,255,255,.28)" stroke-width="1"/>
+      <circle cx="1022" cy="591" r="46" fill="#c98bff" opacity=".34" stroke="rgba(255,255,255,.28)" stroke-width="1"/>
+      <path d="M1035 503 L1028 603" fill="none" stroke="rgba(4,39,52,.62)" stroke-width="3" stroke-linecap="round"/>
+      <path d="M968 560 L1150 560" fill="none" stroke="rgba(4,39,52,.62)" stroke-width="3" stroke-linecap="round"/>
+      <path d="M1080 511 L1074 604" fill="none" stroke="rgba(4,39,52,.62)" stroke-width="3" stroke-linecap="round"/>
+    </g>
+    <path d="M967 518 C1036 493 1107 506 1154 539 C1146 586 1102 608 1023 603 C981 599 950 570 967 518 Z" fill="none" stroke="rgba(8,34,42,.82)" stroke-width="2"/>
+    <text x="1051" y="514" fill="#fff" font-family="Avenir Next Condensed, Arial" font-size="15" font-weight="900" text-anchor="middle" paint-order="stroke" stroke="rgba(0,0,0,.75)" stroke-width="4">Australia</text>
+  </g>
+  <g filter="url(#glow)">
+    <path d="M610 535 C650 519 704 523 747 565 C727 600 692 616 638 611 C615 594 604 565 610 535 Z" fill="#78dff2" opacity=".82" stroke="rgba(8,34,42,.74)" stroke-width="2"/>
+    <g clip-path="url(#clip-southAfrica)">
+      <circle cx="650" cy="587" r="34" fill="#78dff2" opacity=".34" stroke="rgba(255,255,255,.28)" stroke-width="1"/>
+      <circle cx="682" cy="548" r="34" fill="#78dff2" opacity=".34" stroke="rgba(255,255,255,.28)" stroke-width="1"/>
+      <circle cx="719" cy="575" r="34" fill="#78dff2" opacity=".34" stroke="rgba(255,255,255,.28)" stroke-width="1"/>
+      <path d="M665 524 L661 613" fill="none" stroke="rgba(4,39,52,.62)" stroke-width="3" stroke-linecap="round"/>
+      <path d="M614 571 L744 571" fill="none" stroke="rgba(4,39,52,.62)" stroke-width="3" stroke-linecap="round"/>
+    </g>
+    <path d="M610 535 C650 519 704 523 747 565 C727 600 692 616 638 611 C615 594 604 565 610 535 Z" fill="none" stroke="rgba(8,34,42,.82)" stroke-width="2"/>
+    <text x="682" y="547" fill="#fff" font-family="Avenir Next Condensed, Arial" font-size="15" font-weight="900" text-anchor="middle" paint-order="stroke" stroke="rgba(0,0,0,.75)" stroke-width="4">S. Africa</text>
+  </g>
+  <g><g transform="translate(164 270)"><circle r="12" fill="rgba(0,0,0,.72)" stroke="rgba(255,255,255,.7)" stroke-width="2"/><circle r="8" fill="#3f8cff" stroke="rgba(0,0,0,.65)" stroke-width="2"/><text y="25" fill="#f6f3e8" font-family="Avenir Next Condensed, Arial" font-size="12" font-weight="900" text-anchor="middle" paint-order="stroke" stroke="rgba(0,0,0,.72)" stroke-width="4">48</text></g>
+  <g transform="translate(214 252)"><circle r="12" fill="rgba(0,0,0,.72)" stroke="rgba(255,255,255,.7)" stroke-width="2"/><circle r="8" fill="#3f8cff" stroke="rgba(0,0,0,.65)" stroke-width="2"/><text y="25" fill="#f6f3e8" font-family="Avenir Next Condensed, Arial" font-size="12" font-weight="900" text-anchor="middle" paint-order="stroke" stroke="rgba(0,0,0,.72)" stroke-width="4">48</text></g>
+  <g transform="translate(235 313)"><circle r="12" fill="rgba(0,0,0,.72)" stroke="rgba(255,255,255,.7)" stroke-width="2"/><circle r="8" fill="#3f8cff" stroke="rgba(0,0,0,.65)" stroke-width="2"/><text y="25" fill="#f6f3e8" font-family="Avenir Next Condensed, Arial" font-size="12" font-weight="900" text-anchor="middle" paint-order="stroke" stroke="rgba(0,0,0,.72)" stroke-width="4">47</text></g>
+  <g transform="translate(265 279)"><circle r="12" fill="rgba(0,0,0,.72)" stroke="rgba(255,255,255,.7)" stroke-width="2"/><circle r="8" fill="#3f8cff" stroke="rgba(0,0,0,.65)" stroke-width="2"/><text y="25" fill="#f6f3e8" font-family="Avenir Next Condensed, Arial" font-size="12" font-weight="900" text-anchor="middle" paint-order="stroke" stroke="rgba(0,0,0,.72)" stroke-width="4">47</text></g>
+  <g transform="translate(134 122)"><circle r="12" fill="rgba(0,0,0,.72)" stroke="rgba(255,255,255,.7)" stroke-width="2"/><circle r="8" fill="#56d8a0" stroke="rgba(0,0,0,.65)" stroke-width="2"/><text y="25" fill="#f6f3e8" font-family="Avenir Next Condensed, Arial" font-size="12" font-weight="900" text-anchor="middle" paint-order="stroke" stroke="rgba(0,0,0,.72)" stroke-width="4">40</text></g>
+  <g transform="translate(197 131)"><circle r="12" fill="rgba(0,0,0,.72)" stroke="rgba(255,255,255,.7)" stroke-width="2"/><circle r="8" fill="#56d8a0" stroke="rgba(0,0,0,.65)" stroke-width="2"/><text y="25" fill="#f6f3e8" font-family="Avenir Next Condensed, Arial" font-size="12" font-weight="900" text-anchor="middle" paint-order="stroke" stroke="rgba(0,0,0,.72)" stroke-width="4">40</text></g>
+  <g transform="translate(168 176)"><circle r="12" fill="rgba(0,0,0,.72)" stroke="rgba(255,255,255,.7)" stroke-width="2"/><circle r="8" fill="#56d8a0" stroke="rgba(0,0,0,.65)" stroke-width="2"/><text y="25" fill="#f6f3e8" font-family="Avenir Next Condensed, Arial" font-size="12" font-weight="900" text-anchor="middle" paint-order="stroke" stroke="rgba(0,0,0,.72)" stroke-width="4">40</text></g>
+  <g transform="translate(228 355)"><circle r="12" fill="rgba(0,0,0,.72)" stroke="rgba(255,255,255,.7)" stroke-width="2"/><circle r="8" fill="#debf53" stroke="rgba(0,0,0,.65)" stroke-width="2"/><text y="25" fill="#f6f3e8" font-family="Avenir Next Condensed, Arial" font-size="12" font-weight="900" text-anchor="middle" paint-order="stroke" stroke="rgba(0,0,0,.72)" stroke-width="4">34</text></g>
+  <g transform="translate(281 381)"><circle r="12" fill="rgba(0,0,0,.72)" stroke="rgba(255,255,255,.7)" stroke-width="2"/><circle r="8" fill="#debf53" stroke="rgba(0,0,0,.65)" stroke-width="2"/><text y="25" fill="#f6f3e8" font-family="Avenir Next Condensed, Arial" font-size="12" font-weight="900" text-anchor="middle" paint-order="stroke" stroke="rgba(0,0,0,.72)" stroke-width="4">33</text></g>
+  <g transform="translate(343 417)"><circle r="12" fill="rgba(0,0,0,.72)" stroke="rgba(255,255,255,.7)" stroke-width="2"/><circle r="8" fill="#debf53" stroke="rgba(0,0,0,.65)" stroke-width="2"/><text y="25" fill="#f6f3e8" font-family="Avenir Next Condensed, Arial" font-size="12" font-weight="900" text-anchor="middle" paint-order="stroke" stroke="rgba(0,0,0,.72)" stroke-width="4">33</text></g>
+  <g transform="translate(397 427)"><circle r="12" fill="rgba(0,0,0,.72)" stroke="rgba(255,255,255,.7)" stroke-width="2"/><circle r="8" fill="#6ee66f" stroke="rgba(0,0,0,.65)" stroke-width="2"/><text y="25" fill="#f6f3e8" font-family="Avenir Next Condensed, Arial" font-size="12" font-weight="900" text-anchor="middle" paint-order="stroke" stroke="rgba(0,0,0,.72)" stroke-width="4">47</text></g>
+  <g transform="translate(466 456)"><circle r="12" fill="rgba(0,0,0,.72)" stroke="rgba(255,255,255,.7)" stroke-width="2"/><circle r="8" fill="#6ee66f" stroke="rgba(0,0,0,.65)" stroke-width="2"/><text y="25" fill="#f6f3e8" font-family="Avenir Next Condensed, Arial" font-size="12" font-weight="900" text-anchor="middle" paint-order="stroke" stroke="rgba(0,0,0,.72)" stroke-width="4">47</text></g>
+  <g transform="translate(422 478)"><circle r="12" fill="rgba(0,0,0,.72)" stroke="rgba(255,255,255,.7)" stroke-width="2"/><circle r="8" fill="#6ee66f" stroke="rgba(0,0,0,.65)" stroke-width="2"/><text y="25" fill="#f6f3e8" font-family="Avenir Next Condensed, Arial" font-size="12" font-weight="900" text-anchor="middle" paint-order="stroke" stroke="rgba(0,0,0,.72)" stroke-width="4">46</text></g>
+  <g transform="translate(535 202)"><circle r="12" fill="rgba(0,0,0,.72)" stroke="rgba(255,255,255,.7)" stroke-width="2"/><circle r="8" fill="#d76bff" stroke="rgba(0,0,0,.65)" stroke-width="2"/><text y="25" fill="#f6f3e8" font-family="Avenir Next Condensed, Arial" font-size="12" font-weight="900" text-anchor="middle" paint-order="stroke" stroke="rgba(0,0,0,.72)" stroke-width="4">39</text></g>
+  <g transform="translate(530 236)"><circle r="12" fill="rgba(0,0,0,.72)" stroke="rgba(255,255,255,.7)" stroke-width="2"/><circle r="8" fill="#d76bff" stroke="rgba(0,0,0,.65)" stroke-width="2"/><text y="25" fill="#f6f3e8" font-family="Avenir Next Condensed, Arial" font-size="12" font-weight="900" text-anchor="middle" paint-order="stroke" stroke="rgba(0,0,0,.72)" stroke-width="4">38</text></g>
+  <g transform="translate(548 263)"><circle r="12" fill="rgba(0,0,0,.72)" stroke="rgba(255,255,255,.7)" stroke-width="2"/><circle r="8" fill="#d76bff" stroke="rgba(0,0,0,.65)" stroke-width="2"/><text y="25" fill="#f6f3e8" font-family="Avenir Next Condensed, Arial" font-size="12" font-weight="900" text-anchor="middle" paint-order="stroke" stroke="rgba(0,0,0,.72)" stroke-width="4">38</text></g>
+  <g transform="translate(550 295)"><circle r="12" fill="rgba(0,0,0,.72)" stroke="rgba(255,255,255,.7)" stroke-width="2"/><circle r="8" fill="#56c7ff" stroke="rgba(0,0,0,.65)" stroke-width="2"/><text y="25" fill="#f6f3e8" font-family="Avenir Next Condensed, Arial" font-size="12" font-weight="900" text-anchor="middle" paint-order="stroke" stroke="rgba(0,0,0,.72)" stroke-width="4">44</text></g>
+  <g transform="translate(585 314)"><circle r="12" fill="rgba(0,0,0,.72)" stroke="rgba(255,255,255,.7)" stroke-width="2"/><circle r="8" fill="#56c7ff" stroke="rgba(0,0,0,.65)" stroke-width="2"/><text y="25" fill="#f6f3e8" font-family="Avenir Next Condensed, Arial" font-size="12" font-weight="900" text-anchor="middle" paint-order="stroke" stroke="rgba(0,0,0,.72)" stroke-width="4">43</text></g>
+  <g transform="translate(552 353)"><circle r="12" fill="rgba(0,0,0,.72)" stroke="rgba(255,255,255,.7)" stroke-width="2"/><circle r="8" fill="#56c7ff" stroke="rgba(0,0,0,.65)" stroke-width="2"/><text y="25" fill="#f6f3e8" font-family="Avenir Next Condensed, Arial" font-size="12" font-weight="900" text-anchor="middle" paint-order="stroke" stroke="rgba(0,0,0,.72)" stroke-width="4">43</text></g>
+  <g transform="translate(523 414)"><circle r="12" fill="rgba(0,0,0,.72)" stroke="rgba(255,255,255,.7)" stroke-width="2"/><circle r="8" fill="#ffb44f" stroke="rgba(0,0,0,.65)" stroke-width="2"/><text y="25" fill="#f6f3e8" font-family="Avenir Next Condensed, Arial" font-size="12" font-weight="900" text-anchor="middle" paint-order="stroke" stroke="rgba(0,0,0,.72)" stroke-width="4">35</text></g>
+  <g transform="translate(573 409)"><circle r="12" fill="rgba(0,0,0,.72)" stroke="rgba(255,255,255,.7)" stroke-width="2"/><circle r="8" fill="#ffb44f" stroke="rgba(0,0,0,.65)" stroke-width="2"/><text y="25" fill="#f6f3e8" font-family="Avenir Next Condensed, Arial" font-size="12" font-weight="900" text-anchor="middle" paint-order="stroke" stroke="rgba(0,0,0,.72)" stroke-width="4">35</text></g>
+  <g transform="translate(524 446)"><circle r="12" fill="rgba(0,0,0,.72)" stroke="rgba(255,255,255,.7)" stroke-width="2"/><circle r="8" fill="#ffb44f" stroke="rgba(0,0,0,.65)" stroke-width="2"/><text y="25" fill="#f6f3e8" font-family="Avenir Next Condensed, Arial" font-size="12" font-weight="900" text-anchor="middle" paint-order="stroke" stroke="rgba(0,0,0,.72)" stroke-width="4">35</text></g>
+  <g transform="translate(644 286)"><circle r="12" fill="rgba(0,0,0,.72)" stroke="rgba(255,255,255,.7)" stroke-width="2"/><circle r="8" fill="#fff06a" stroke="rgba(0,0,0,.65)" stroke-width="2"/><text y="25" fill="#f6f3e8" font-family="Avenir Next Condensed, Arial" font-size="12" font-weight="900" text-anchor="middle" paint-order="stroke" stroke="rgba(0,0,0,.72)" stroke-width="4">37</text></g>
+  <g transform="translate(658 339)"><circle r="12" fill="rgba(0,0,0,.72)" stroke="rgba(255,255,255,.7)" stroke-width="2"/><circle r="8" fill="#fff06a" stroke="rgba(0,0,0,.65)" stroke-width="2"/><text y="25" fill="#f6f3e8" font-family="Avenir Next Condensed, Arial" font-size="12" font-weight="900" text-anchor="middle" paint-order="stroke" stroke="rgba(0,0,0,.72)" stroke-width="4">36</text></g>
+  <g transform="translate(690 314)"><circle r="12" fill="rgba(0,0,0,.72)" stroke="rgba(255,255,255,.7)" stroke-width="2"/><circle r="8" fill="#fff06a" stroke="rgba(0,0,0,.65)" stroke-width="2"/><text y="25" fill="#f6f3e8" font-family="Avenir Next Condensed, Arial" font-size="12" font-weight="900" text-anchor="middle" paint-order="stroke" stroke="rgba(0,0,0,.72)" stroke-width="4">36</text></g>
+  <g transform="translate(676 264)"><circle r="12" fill="rgba(0,0,0,.72)" stroke="rgba(255,255,255,.7)" stroke-width="2"/><circle r="8" fill="#fff06a" stroke="rgba(0,0,0,.65)" stroke-width="2"/><text y="25" fill="#f6f3e8" font-family="Avenir Next Condensed, Arial" font-size="12" font-weight="900" text-anchor="middle" paint-order="stroke" stroke="rgba(0,0,0,.72)" stroke-width="4">36</text></g>
+  <g transform="translate(723 287)"><circle r="12" fill="rgba(0,0,0,.72)" stroke="rgba(255,255,255,.7)" stroke-width="2"/><circle r="8" fill="#ff7f8f" stroke="rgba(0,0,0,.65)" stroke-width="2"/><text y="25" fill="#f6f3e8" font-family="Avenir Next Condensed, Arial" font-size="12" font-weight="900" text-anchor="middle" paint-order="stroke" stroke="rgba(0,0,0,.72)" stroke-width="4">40</text></g>
+  <g transform="translate(757 292)"><circle r="12" fill="rgba(0,0,0,.72)" stroke="rgba(255,255,255,.7)" stroke-width="2"/><circle r="8" fill="#ff7f8f" stroke="rgba(0,0,0,.65)" stroke-width="2"/><text y="25" fill="#f6f3e8" font-family="Avenir Next Condensed, Arial" font-size="12" font-weight="900" text-anchor="middle" paint-order="stroke" stroke="rgba(0,0,0,.72)" stroke-width="4">39</text></g>
+  <g transform="translate(743 329)"><circle r="12" fill="rgba(0,0,0,.72)" stroke="rgba(255,255,255,.7)" stroke-width="2"/><circle r="8" fill="#ff7f8f" stroke="rgba(0,0,0,.65)" stroke-width="2"/><text y="25" fill="#f6f3e8" font-family="Avenir Next Condensed, Arial" font-size="12" font-weight="900" text-anchor="middle" paint-order="stroke" stroke="rgba(0,0,0,.72)" stroke-width="4">39</text></g>
+  <g transform="translate(662 370)"><circle r="12" fill="rgba(0,0,0,.72)" stroke="rgba(255,255,255,.7)" stroke-width="2"/><circle r="8" fill="#7df2c6" stroke="rgba(0,0,0,.65)" stroke-width="2"/><text y="25" fill="#f6f3e8" font-family="Avenir Next Condensed, Arial" font-size="12" font-weight="900" text-anchor="middle" paint-order="stroke" stroke="rgba(0,0,0,.72)" stroke-width="4">37</text></g>
+  <g transform="translate(681 417)"><circle r="12" fill="rgba(0,0,0,.72)" stroke="rgba(255,255,255,.7)" stroke-width="2"/><circle r="8" fill="#7df2c6" stroke="rgba(0,0,0,.65)" stroke-width="2"/><text y="25" fill="#f6f3e8" font-family="Avenir Next Condensed, Arial" font-size="12" font-weight="900" text-anchor="middle" paint-order="stroke" stroke="rgba(0,0,0,.72)" stroke-width="4">37</text></g>
+  <g transform="translate(716 461)"><circle r="12" fill="rgba(0,0,0,.72)" stroke="rgba(255,255,255,.7)" stroke-width="2"/><circle r="8" fill="#7df2c6" stroke="rgba(0,0,0,.65)" stroke-width="2"/><text y="25" fill="#f6f3e8" font-family="Avenir Next Condensed, Arial" font-size="12" font-weight="900" text-anchor="middle" paint-order="stroke" stroke="rgba(0,0,0,.72)" stroke-width="4">36</text></g>
+  <g transform="translate(782 142)"><circle r="12" fill="rgba(0,0,0,.72)" stroke="rgba(255,255,255,.7)" stroke-width="2"/><circle r="8" fill="#ff645e" stroke="rgba(0,0,0,.65)" stroke-width="2"/><text y="25" fill="#f6f3e8" font-family="Avenir Next Condensed, Arial" font-size="12" font-weight="900" text-anchor="middle" paint-order="stroke" stroke="rgba(0,0,0,.72)" stroke-width="4">44</text></g>
+  <g transform="translate(850 202)"><circle r="12" fill="rgba(0,0,0,.72)" stroke="rgba(255,255,255,.7)" stroke-width="2"/><circle r="8" fill="#ff645e" stroke="rgba(0,0,0,.65)" stroke-width="2"/><text y="25" fill="#f6f3e8" font-family="Avenir Next Condensed, Arial" font-size="12" font-weight="900" text-anchor="middle" paint-order="stroke" stroke="rgba(0,0,0,.72)" stroke-width="4">44</text></g>
+  <g transform="translate(845 271)"><circle r="12" fill="rgba(0,0,0,.72)" stroke="rgba(255,255,255,.7)" stroke-width="2"/><circle r="8" fill="#ff645e" stroke="rgba(0,0,0,.65)" stroke-width="2"/><text y="25" fill="#f6f3e8" font-family="Avenir Next Condensed, Arial" font-size="12" font-weight="900" text-anchor="middle" paint-order="stroke" stroke="rgba(0,0,0,.72)" stroke-width="4">44</text></g>
+  <g transform="translate(925 239)"><circle r="12" fill="rgba(0,0,0,.72)" stroke="rgba(255,255,255,.7)" stroke-width="2"/><circle r="8" fill="#ff645e" stroke="rgba(0,0,0,.65)" stroke-width="2"/><text y="25" fill="#f6f3e8" font-family="Avenir Next Condensed, Arial" font-size="12" font-weight="900" text-anchor="middle" paint-order="stroke" stroke="rgba(0,0,0,.72)" stroke-width="4">44</text></g>
+  <g transform="translate(986 180)"><circle r="12" fill="rgba(0,0,0,.72)" stroke="rgba(255,255,255,.7)" stroke-width="2"/><circle r="8" fill="#ff645e" stroke="rgba(0,0,0,.65)" stroke-width="2"/><text y="25" fill="#f6f3e8" font-family="Avenir Next Condensed, Arial" font-size="12" font-weight="900" text-anchor="middle" paint-order="stroke" stroke="rgba(0,0,0,.72)" stroke-width="4">44</text></g>
+  <g transform="translate(733 397)"><circle r="12" fill="rgba(0,0,0,.72)" stroke="rgba(255,255,255,.7)" stroke-width="2"/><circle r="8" fill="#ff8f4a" stroke="rgba(0,0,0,.65)" stroke-width="2"/><text y="25" fill="#f6f3e8" font-family="Avenir Next Condensed, Arial" font-size="12" font-weight="900" text-anchor="middle" paint-order="stroke" stroke="rgba(0,0,0,.72)" stroke-width="4">42</text></g>
+  <g transform="translate(774 411)"><circle r="12" fill="rgba(0,0,0,.72)" stroke="rgba(255,255,255,.7)" stroke-width="2"/><circle r="8" fill="#ff8f4a" stroke="rgba(0,0,0,.65)" stroke-width="2"/><text y="25" fill="#f6f3e8" font-family="Avenir Next Condensed, Arial" font-size="12" font-weight="900" text-anchor="middle" paint-order="stroke" stroke="rgba(0,0,0,.72)" stroke-width="4">42</text></g>
+  <g transform="translate(822 421)"><circle r="12" fill="rgba(0,0,0,.72)" stroke="rgba(255,255,255,.7)" stroke-width="2"/><circle r="8" fill="#ff8f4a" stroke="rgba(0,0,0,.65)" stroke-width="2"/><text y="25" fill="#f6f3e8" font-family="Avenir Next Condensed, Arial" font-size="12" font-weight="900" text-anchor="middle" paint-order="stroke" stroke="rgba(0,0,0,.72)" stroke-width="4">41</text></g>
+  <g transform="translate(699 479)"><circle r="12" fill="rgba(0,0,0,.72)" stroke="rgba(255,255,255,.7)" stroke-width="2"/><circle r="8" fill="#d9b06e" stroke="rgba(0,0,0,.65)" stroke-width="2"/><text y="25" fill="#f6f3e8" font-family="Avenir Next Condensed, Arial" font-size="12" font-weight="900" text-anchor="middle" paint-order="stroke" stroke="rgba(0,0,0,.72)" stroke-width="4">34</text></g>
+  <g transform="translate(701 526)"><circle r="12" fill="rgba(0,0,0,.72)" stroke="rgba(255,255,255,.7)" stroke-width="2"/><circle r="8" fill="#d9b06e" stroke="rgba(0,0,0,.65)" stroke-width="2"/><text y="25" fill="#f6f3e8" font-family="Avenir Next Condensed, Arial" font-size="12" font-weight="900" text-anchor="middle" paint-order="stroke" stroke="rgba(0,0,0,.72)" stroke-width="4">33</text></g>
+  <g transform="translate(741 506)"><circle r="12" fill="rgba(0,0,0,.72)" stroke="rgba(255,255,255,.7)" stroke-width="2"/><circle r="8" fill="#d9b06e" stroke="rgba(0,0,0,.65)" stroke-width="2"/><text y="25" fill="#f6f3e8" font-family="Avenir Next Condensed, Arial" font-size="12" font-weight="900" text-anchor="middle" paint-order="stroke" stroke="rgba(0,0,0,.72)" stroke-width="4">33</text></g>
+  <g transform="translate(849 431)"><circle r="12" fill="rgba(0,0,0,.72)" stroke="rgba(255,255,255,.7)" stroke-width="2"/><circle r="8" fill="#b7e163" stroke="rgba(0,0,0,.65)" stroke-width="2"/><text y="25" fill="#f6f3e8" font-family="Avenir Next Condensed, Arial" font-size="12" font-weight="900" text-anchor="middle" paint-order="stroke" stroke="rgba(0,0,0,.72)" stroke-width="4">43</text></g>
+  <g transform="translate(858 466)"><circle r="12" fill="rgba(0,0,0,.72)" stroke="rgba(255,255,255,.7)" stroke-width="2"/><circle r="8" fill="#b7e163" stroke="rgba(0,0,0,.65)" stroke-width="2"/><text y="25" fill="#f6f3e8" font-family="Avenir Next Condensed, Arial" font-size="12" font-weight="900" text-anchor="middle" paint-order="stroke" stroke="rgba(0,0,0,.72)" stroke-width="4">43</text></g>
+  <g transform="translate(838 493)"><circle r="12" fill="rgba(0,0,0,.72)" stroke="rgba(255,255,255,.7)" stroke-width="2"/><circle r="8" fill="#b7e163" stroke="rgba(0,0,0,.65)" stroke-width="2"/><text y="25" fill="#f6f3e8" font-family="Avenir Next Condensed, Arial" font-size="12" font-weight="900" text-anchor="middle" paint-order="stroke" stroke="rgba(0,0,0,.72)" stroke-width="4">42</text></g>
+  <g transform="translate(934 454)"><circle r="12" fill="rgba(0,0,0,.72)" stroke="rgba(255,255,255,.7)" stroke-width="2"/><circle r="8" fill="#ff9dcb" stroke="rgba(0,0,0,.65)" stroke-width="2"/><text y="25" fill="#f6f3e8" font-family="Avenir Next Condensed, Arial" font-size="12" font-weight="900" text-anchor="middle" paint-order="stroke" stroke="rgba(0,0,0,.72)" stroke-width="4">40</text></g>
+  <g transform="translate(979 487)"><circle r="12" fill="rgba(0,0,0,.72)" stroke="rgba(255,255,255,.7)" stroke-width="2"/><circle r="8" fill="#ff9dcb" stroke="rgba(0,0,0,.65)" stroke-width="2"/><text y="25" fill="#f6f3e8" font-family="Avenir Next Condensed, Arial" font-size="12" font-weight="900" text-anchor="middle" paint-order="stroke" stroke="rgba(0,0,0,.72)" stroke-width="4">40</text></g>
+  <g transform="translate(949 526)"><circle r="12" fill="rgba(0,0,0,.72)" stroke="rgba(255,255,255,.7)" stroke-width="2"/><circle r="8" fill="#ff9dcb" stroke="rgba(0,0,0,.65)" stroke-width="2"/><text y="25" fill="#f6f3e8" font-family="Avenir Next Condensed, Arial" font-size="12" font-weight="900" text-anchor="middle" paint-order="stroke" stroke="rgba(0,0,0,.72)" stroke-width="4">40</text></g>
+  <g transform="translate(912 500)"><circle r="12" fill="rgba(0,0,0,.72)" stroke="rgba(255,255,255,.7)" stroke-width="2"/><circle r="8" fill="#ff9dcb" stroke="rgba(0,0,0,.65)" stroke-width="2"/><text y="25" fill="#f6f3e8" font-family="Avenir Next Condensed, Arial" font-size="12" font-weight="900" text-anchor="middle" paint-order="stroke" stroke="rgba(0,0,0,.72)" stroke-width="4">40</text></g>
+  <g transform="translate(956 570)"><circle r="12" fill="rgba(0,0,0,.72)" stroke="rgba(255,255,255,.7)" stroke-width="2"/><circle r="8" fill="#ff9dcb" stroke="rgba(0,0,0,.65)" stroke-width="2"/><text y="25" fill="#f6f3e8" font-family="Avenir Next Condensed, Arial" font-size="12" font-weight="900" text-anchor="middle" paint-order="stroke" stroke="rgba(0,0,0,.72)" stroke-width="4">40</text></g>
+  <g transform="translate(1032 340)"><circle r="12" fill="rgba(0,0,0,.72)" stroke="rgba(255,255,255,.7)" stroke-width="2"/><circle r="8" fill="#ffcc41" stroke="rgba(0,0,0,.65)" stroke-width="2"/><text y="25" fill="#f6f3e8" font-family="Avenir Next Condensed, Arial" font-size="12" font-weight="900" text-anchor="middle" paint-order="stroke" stroke="rgba(0,0,0,.72)" stroke-width="4">46</text></g>
+  <g transform="translate(1085 414)"><circle r="12" fill="rgba(0,0,0,.72)" stroke="rgba(255,255,255,.7)" stroke-width="2"/><circle r="8" fill="#ffcc41" stroke="rgba(0,0,0,.65)" stroke-width="2"/><text y="25" fill="#f6f3e8" font-family="Avenir Next Condensed, Arial" font-size="12" font-weight="900" text-anchor="middle" paint-order="stroke" stroke="rgba(0,0,0,.72)" stroke-width="4">46</text></g>
+  <g transform="translate(1006 419)"><circle r="12" fill="rgba(0,0,0,.72)" stroke="rgba(255,255,255,.7)" stroke-width="2"/><circle r="8" fill="#ffcc41" stroke="rgba(0,0,0,.65)" stroke-width="2"/><text y="25" fill="#f6f3e8" font-family="Avenir Next Condensed, Arial" font-size="12" font-weight="900" text-anchor="middle" paint-order="stroke" stroke="rgba(0,0,0,.72)" stroke-width="4">46</text></g>
+  <g transform="translate(1051 463)"><circle r="12" fill="rgba(0,0,0,.72)" stroke="rgba(255,255,255,.7)" stroke-width="2"/><circle r="8" fill="#ffcc41" stroke="rgba(0,0,0,.65)" stroke-width="2"/><text y="25" fill="#f6f3e8" font-family="Avenir Next Condensed, Arial" font-size="12" font-weight="900" text-anchor="middle" paint-order="stroke" stroke="rgba(0,0,0,.72)" stroke-width="4">46</text></g>
+  <g transform="translate(958 373)"><circle r="12" fill="rgba(0,0,0,.72)" stroke="rgba(255,255,255,.7)" stroke-width="2"/><circle r="8" fill="#ffcc41" stroke="rgba(0,0,0,.65)" stroke-width="2"/><text y="25" fill="#f6f3e8" font-family="Avenir Next Condensed, Arial" font-size="12" font-weight="900" text-anchor="middle" paint-order="stroke" stroke="rgba(0,0,0,.72)" stroke-width="4">46</text></g>
+  <g transform="translate(1154 337)"><circle r="12" fill="rgba(0,0,0,.72)" stroke="rgba(255,255,255,.7)" stroke-width="2"/><circle r="8" fill="#f3f0f0" stroke="rgba(0,0,0,.65)" stroke-width="2"/><text y="25" fill="#f6f3e8" font-family="Avenir Next Condensed, Arial" font-size="12" font-weight="900" text-anchor="middle" paint-order="stroke" stroke="rgba(0,0,0,.72)" stroke-width="4">35</text></g>
+  <g transform="translate(1160 390)"><circle r="12" fill="rgba(0,0,0,.72)" stroke="rgba(255,255,255,.7)" stroke-width="2"/><circle r="8" fill="#f3f0f0" stroke="rgba(0,0,0,.65)" stroke-width="2"/><text y="25" fill="#f6f3e8" font-family="Avenir Next Condensed, Arial" font-size="12" font-weight="900" text-anchor="middle" paint-order="stroke" stroke="rgba(0,0,0,.72)" stroke-width="4">35</text></g>
+  <g transform="translate(1172 445)"><circle r="12" fill="rgba(0,0,0,.72)" stroke="rgba(255,255,255,.7)" stroke-width="2"/><circle r="8" fill="#f3f0f0" stroke="rgba(0,0,0,.65)" stroke-width="2"/><text y="25" fill="#f6f3e8" font-family="Avenir Next Condensed, Arial" font-size="12" font-weight="900" text-anchor="middle" paint-order="stroke" stroke="rgba(0,0,0,.72)" stroke-width="4">35</text></g>
+  <g transform="translate(1005 550)"><circle r="12" fill="rgba(0,0,0,.72)" stroke="rgba(255,255,255,.7)" stroke-width="2"/><circle r="8" fill="#c98bff" stroke="rgba(0,0,0,.65)" stroke-width="2"/><text y="25" fill="#f6f3e8" font-family="Avenir Next Condensed, Arial" font-size="12" font-weight="900" text-anchor="middle" paint-order="stroke" stroke="rgba(0,0,0,.72)" stroke-width="4">45</text></g>
+  <g transform="translate(1094 540)"><circle r="12" fill="rgba(0,0,0,.72)" stroke="rgba(255,255,255,.7)" stroke-width="2"/><circle r="8" fill="#c98bff" stroke="rgba(0,0,0,.65)" stroke-width="2"/><text y="25" fill="#f6f3e8" font-family="Avenir Next Condensed, Arial" font-size="12" font-weight="900" text-anchor="middle" paint-order="stroke" stroke="rgba(0,0,0,.72)" stroke-width="4">45</text></g>
+  <g transform="translate(650 587)"><circle r="12" fill="rgba(0,0,0,.72)" stroke="rgba(255,255,255,.7)" stroke-width="2"/><circle r="8" fill="#78dff2" stroke="rgba(0,0,0,.65)" stroke-width="2"/><text y="25" fill="#f6f3e8" font-family="Avenir Next Condensed, Arial" font-size="12" font-weight="900" text-anchor="middle" paint-order="stroke" stroke="rgba(0,0,0,.72)" stroke-width="4">48</text></g>
+  <g transform="translate(682 548)"><circle r="12" fill="rgba(0,0,0,.72)" stroke="rgba(255,255,255,.7)" stroke-width="2"/><circle r="8" fill="#78dff2" stroke="rgba(0,0,0,.65)" stroke-width="2"/><text y="25" fill="#f6f3e8" font-family="Avenir Next Condensed, Arial" font-size="12" font-weight="900" text-anchor="middle" paint-order="stroke" stroke="rgba(0,0,0,.72)" stroke-width="4">47</text></g></g>
+</svg>
